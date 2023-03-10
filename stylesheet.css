@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+
 /*Global css */
 
 * {
@@ -6,13 +8,17 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 :root {
   --nav-background-color: #333;
   --primary-color: #EAD9AE;
   --secondary-color: #333;
-  --third-color: #EAD9AE;
+  --third-color: #04aa6d;
   --primary-typo-color: #333;
-  --secondary-typo-color: #04aa6d;
+  --secondary-typo-color: #141414;
 }
 
 /* ---------NAV SECTIOn---------- */
@@ -37,7 +43,7 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -70,12 +76,36 @@
   text-align: left;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--primary-color);
+  color: var(--primary-typo-colors);
+}
+
 
 /* ----------------HEADER section------------------ */
 header {
   background-image: url(images/pexels-helena-lopes-1796698.jpg);
-  background-size: contain;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -83,7 +113,7 @@ header {
 h1 {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--primary-typo-color);
   padding: 3em 0;
 }
 
@@ -93,14 +123,12 @@ section {
 }
 
 h2,
-h3 {
-  color: var(--secondary-color);
-}
-
-h2 {
+h3,
+p {
+  color: var(--primary-typo-color);
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 1rem 1rem;
 }
 
 h3 {
@@ -120,8 +148,52 @@ h3 {
   grid-template-rows: auto;
 }
 
+/* beer img */
 .bieresImages {
   width: 70%;
   display: block;
-  margin: auto;
+  margin: 5vh auto;
+  border-radius: 1%;
+}
+
+.bieresImages:hover {
+  transform: scale(120%);
+  border-radius: 5%;
+  transition: 0.7s;
+
+}
+
+/* background image section */
+#first-backg {
+  background-image: url(images/beer-g2df68c568_1920.jpg);
+}
+
+#second-backg {
+  background-image: url(images/beer-g0e47d6d15_1920.jpg);
+}
+
+#third-backg {
+  background-image: url(images/pexels-pixabay-63633.jpg);
+}
+
+.backgroundImg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+/* ----------FOOTER SECTION------------ */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  width: 100%;
+  height: 10vh;
+}
+
+footer>h4 {
+  color: var(--primary-color);
 }
