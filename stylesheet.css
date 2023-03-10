@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
 
+/*Global css */
+
 * {
   margin: 0;
   border: 0;
@@ -127,6 +129,23 @@ p {
   display: flex;
   justify-content: center;
   padding: 1rem 1rem;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+/*Maps*/
+
+#myMaps {
+  height: 470px;
+}
+
+/*Resources*/
+
+.video-resources {
+  display: grid;
+  grid-template-rows: auto;
 }
 
 /* beer img */
