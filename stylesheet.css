@@ -1,12 +1,19 @@
 * {
-  margin: 0
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 :root {
   --nav-background-color: #333;
-
+  --primary-color: #EAD9AE;
+  --secondary-color: #333;
+  --third-color: #EAD9AE;
+  --primary-typo-color: #333;
+  --secondary-typo-color: #04aa6d;
 }
 
+/* ---------NAV SECTIOn---------- */
 .topnav {
   background-color: var(--nav-background-color);
   overflow: hidden;
@@ -84,10 +91,10 @@
 }
 
 
-/* HEADER section */
+/* ----------------HEADER section------------------ */
 header {
   background-image: url(images/pexels-helena-lopes-1796698.jpg);
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
 
 }
@@ -96,11 +103,20 @@ header {
 h1 {
   display: flex;
   justify-content: center;
-  color: black;
-  padding: 4em 0;
+  color: var(--primary-color);
+  padding: 3em 0;
 }
 
-/* Main section */
+/*------------- Main section -----------------*/
+section {
+  background-color: var(--primary-color);
+}
+
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
 h2 {
   display: flex;
   justify-content: center;
@@ -109,4 +125,10 @@ h2 {
 
 h3 {
   padding: 1rem;
+}
+
+.bieresImages {
+  width: 70%;
+  display: block;
+  margin: auto;
 }
