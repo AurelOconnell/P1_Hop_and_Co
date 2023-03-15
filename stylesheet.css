@@ -24,7 +24,7 @@ h2 {
 
 p {
   font-size: 1rem;
-  margin: 1rem;
+  margin: 2rem;
   line-height: 1.2rem;
 }
 
@@ -216,7 +216,7 @@ section article p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 35vh;
+  height: 40vh;
 }
 
 /* --------------summary------------ */
@@ -263,6 +263,7 @@ footer>h4 {
 
 
 /* ---------MEDIA QUERIES--------- */
+
 @media screen and (min-width: 768px) {
   .summary-and-paragraph {
     display: flex;
@@ -282,8 +283,10 @@ footer>h4 {
     padding: 0rem;
   }
 
-  .beer-section>p {
-    margin: 10vh 15vw 5vh;
+  .beer-section>p,
+  .home-main-section>p,
+  .home-welcome>p {
+    margin: 10vh 10vw 10vh;
   }
 
   .summary-and-paragraph>p {
@@ -295,6 +298,8 @@ footer>h4 {
     line-height: 1.2;
   }
 }
+
+.backgroundImg {}
 
 /*-----------MEDIA QUERIES-------------*/
 
