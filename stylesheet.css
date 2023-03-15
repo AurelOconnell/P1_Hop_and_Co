@@ -28,7 +28,7 @@ p {
   --nav-background-color: #333;
   --primary-color: #EAD9AE;
   --secondary-color: #333;
-  --third-color: #92886d;
+  --third-color: #d8c492;
   --primary-typo-color: #121212;
   --secondary-typo-color: #141414;
 }
@@ -128,33 +128,43 @@ p {
   margin: auto;
 }
 
-
 /*Maps*/
 
 #myMaps {
-  height: 400px;
+  height: 300px;
 }
 
-.maps {
-  height: 200px;
-  width: 300px;
-}
-
-.breweriesBio {
-  display: grid;
-  grid-template-columns: 1fr;
-  text-align: justify;
+#mapsTitle {
+  display: flex;
+  justify-self: center;
+  text-align: center;
 }
 
 .brewName {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.breweriesBio article {
-  width: unset;
-  color:#f76c6c;
+section article p {
+  display: flex;
+  justify-content: center;
+  margin: 15px 30px;
+  padding: 10px;
 }
+
+.breweriesBio {
+  display: flex;
+  justify-content: center;
+}
+
+.maps {
+  height: 200px;
+  margin: 30px 4em 0px 4em;
+  border-radius: 12px;
+  border: solid 1px rgb(49, 46, 46);
+}
+
 /*Resources*/
 
 .video-resources {
@@ -245,9 +255,8 @@ footer>h4 {
 .topnav a.icon {
   float: right;
   display: block;
-}}
+}
 
-@media screen and (max-width: 768px) {
 .topnav.responsive {
   position: relative;
 }
@@ -262,9 +271,14 @@ footer>h4 {
   float: none;
   display: block;
   text-align: left;
-}}
+}
 
-@media screen and (min-width:768px) {
+#myMaps {
+  display: none;
+}
+}
+
+@media screen and (min-width: 768px) {
   .breweriesBio {
     grid-template-columns: repeat(4, 1fr);
 }
@@ -275,4 +289,9 @@ section.breweriesBio h2 {
 
 .breweriesBio article:first-of-type {
   grid-row: 2 / 4;
-}}
+}
+
+#homemaps {
+  display: none;
+}
+}
