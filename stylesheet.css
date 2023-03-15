@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*Global css */
 
@@ -12,12 +12,24 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+p {
+  font-size: 1em;
+}
+
 :root {
   --nav-background-color: #333;
   --primary-color: #EAD9AE;
   --secondary-color: #333;
-  --third-color: #04aa6d;
-  --primary-typo-color: #333;
+  --third-color: #92886d;
+  --primary-typo-color: #121212;
   --secondary-typo-color: #141414;
 }
 
@@ -89,7 +101,7 @@ header {
 h1 {
   display: flex;
   justify-content: center;
-  color: var(--primary-typo-color);
+  color: var(--secondary-typo-color);
   padding: 3em 0;
 }
 
@@ -99,17 +111,23 @@ section {
 }
 
 h2,
-h3,
 p {
+
+  text-align: justify;
   color: var(--primary-typo-color);
   display: flex;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
+  font-weight: 800;
+
 }
 
-h3 {
-  padding: 1rem;
+.medium-line {
+  border-top: 1px solid black;
+  width: 50vw;
+  margin: auto;
 }
+
 
 /*Maps*/
 
@@ -148,12 +166,13 @@ h3 {
 .bieresImages {
   width: 70%;
   display: block;
-  margin: 5vh auto;
+  margin: 2vh auto;
   border-radius: 1%;
+  box-shadow: 1rem black;
 }
 
 .bieresImages:hover {
-  transform: scale(120%);
+  transform: scale(110%);
   border-radius: 5%;
   transition: 0.7s;
 
@@ -181,17 +200,39 @@ h3 {
   height: 30vh;
 }
 
+/* --------------summary------------ */
+.summary {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  width: 50%;
+  color: #ddd;
+  box-shadow: 5px 5px #92886d;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.secondary-ul {
+  margin: 0.2rem 2rem;
+}
+
+
 /* ----------FOOTER SECTION------------ */
 footer {
   display: flex;
   align-items: center;
-  background-color: #333;
+  background-color: var(--secondary-color);
   width: 100%;
   height: 10vh;
 }
 
 footer>h4 {
   color: var(--primary-color);
+  margin: 0 1rem;
 }
 
 /*-----------MEDIA QUERIES-------------*/
@@ -234,5 +275,4 @@ section.breweriesBio h2 {
 
 .breweriesBio article:first-of-type {
   grid-row: 2 / 4;
-}
-}
+}}
