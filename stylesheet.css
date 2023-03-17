@@ -135,8 +135,6 @@ h2,
   margin-top: 1rem;
 }
 
-
-
 /*Maps*/
 
 #myMaps {
@@ -145,40 +143,62 @@ h2,
 
 #mapsTitle {
   display: flex;
+  flex-direction: column;
   justify-self: center;
   text-align: center;
 }
 
 .brewName {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 30px;
 }
 
 section article p {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: justify;
   margin: 15px 30px;
   padding: 10px;
 }
 
 .breweriesBio {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .maps {
   height: 200px;
-  margin: 30px 4em 0px 4em;
+  margin: 2em  4em;
   border-radius: 12px;
   border: solid 1px rgb(49, 46, 46);
 }
 
 /*Resources*/
 
-.video-resources {
-  display: grid;
-  grid-template-rows: auto;
+.titleResources{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 15px 30px;
+  padding: 10px;
+}
+
+.videoResources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
 }
 
 /* beer img */
@@ -258,7 +278,8 @@ footer {
 
 footer>h4 {
   color: var(--primary-color);
-  margin: 0 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -355,5 +376,32 @@ footer>h4 {
 
 #homemaps {
   display: none;
+}
+
+.desktopMedia {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktopMedia p {
+  width: 40em;
+}
+
+.desktopMedia .maps {
+  width: 600px;
+  height: 200px;
+}
+
+.maps {
+  height: 200px;
+  margin: 1em 4em 1em 1em;
+  border-radius: 15px;
+  border: solid 1px rgb(49, 46, 46);
+}
+
+
+#videosMedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 }
