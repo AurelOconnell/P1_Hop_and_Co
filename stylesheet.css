@@ -173,14 +173,14 @@ section article p {
 
 .maps {
   height: 200px;
-  margin: 2em  4em;
+  margin: 2em 4em;
   border-radius: 12px;
   border: solid 1px rgb(49, 46, 46);
 }
 
 /*Resources*/
 
-.titleResources{
+.titleResources {
   display: flex;
   justify-content: center;
   margin: 1em;
@@ -202,23 +202,54 @@ section p {
   margin: 1em;
 }
 
-/* beer img */
+/* ---------beer section---------- */
 .bieresImages {
   width: 70%;
   display: block;
   margin: 5vh auto;
   border-radius: 1%;
-  box-shadow: 0.8rem 0.8rem 0.5rem var(--secondary-typo-color);
+  box-shadow: 0.8rem 0.8rem 0.5rem var(--secondary-color);
+  transition: 0.7s;
+}
+
+.first-section>.bieresImages {
+  width: 70%;
+  display: block;
+  margin: 5vh auto;
+  border-radius: 1%;
+  box-shadow: 0.8rem 0.8rem 0.5rem var(--primary-color);
+  transition: 0.7s;
 }
 
 .bieresImages:hover {
   transform: scale(110%);
   border-radius: 5%;
   transition: 0.7s;
-
 }
 
-/* background image section */
+.first-section {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-typo-color);
+  padding: 2rem 0;
+  box-shadow: 2rem 2rem 2rem var(--primary-color);
+}
+
+.first-section>h2,
+.first-section>p,
+.first-section>.medium-line {
+  color: var(--primary-color);
+}
+
+.first-section .medium-line {
+  border-top: 1px solid #d8c492;
+  width: 50vw;
+  margin: auto;
+  padding: 0;
+}
+
+
+/* -------background image section--------- */
 #first-backg {
   background-image: url(images/beer-g2df68c568_1920.jpg);
 }
@@ -268,6 +299,7 @@ section p {
 }
 
 
+
 /* ----------FOOTER SECTION------------ */
 footer {
   display: flex;
@@ -280,7 +312,7 @@ footer {
 
 footer>h4 {
   color: var(--primary-color);
-  margin: 0;
+  margin: 1rem;
   padding: 0;
 }
 
@@ -386,34 +418,34 @@ footer>h4 {
     grid-row: 2 / 4;
   }
 
-#homemaps {
-  display: none;
-}
+  #homemaps {
+    display: none;
+  }
 
-.desktopMedia {
-  display: flex;
-  flex-direction: row;
-}
+  .desktopMedia {
+    display: flex;
+    flex-direction: row;
+  }
 
-.desktopMedia p {
-  width: 40em;
-}
+  .desktopMedia p {
+    width: 40em;
+  }
 
-.desktopMedia .maps {
-  width: 600px;
-  height: 200px;
-}
+  .desktopMedia .maps {
+    width: 600px;
+    height: 200px;
+  }
 
-.maps {
-  height: 200px;
-  margin: 1em 4em 1em 1em;
-  border-radius: 15px;
-  border: solid 1px rgb(49, 46, 46);
-}
+  .maps {
+    height: 200px;
+    margin: 1em 4em 1em 1em;
+    border-radius: 15px;
+    border: solid 1px rgb(49, 46, 46);
+  }
 
 
-#videosMedia {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  #videosMedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
