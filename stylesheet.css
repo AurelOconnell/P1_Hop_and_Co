@@ -132,8 +132,8 @@ h2,
   padding: 0;
 }
 
-.summary-and-paragraph>p {
-  margin-top: 1rem;
+.introduction {
+  padding-bottom: 4rem;
 }
 
 /*Maps*/
@@ -230,9 +230,14 @@ section p {
 .first-section {
   width: 100%;
   height: 100%;
-  background-color: var(--secondary-typo-color);
-  padding: 2rem 0;
-  box-shadow: 2rem 2rem 2rem var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 1rem 0;
+  box-shadow: 0 1rem 3rem var(--secondary-color), 0rem -1rem 3rem var(--secondary-color);
+  border-radius: 1rem;
+}
+
+.second-section {
+  padding: 3rem 0;
 }
 
 .first-section>h2,
@@ -326,19 +331,18 @@ footer>h4 {
 /* ---------MEDIA QUERIES--------- */
 
 @media screen and (min-width: 768px) {
-  .summary-and-paragraph {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
 
   .summary {
-    padding-right: 8rem;
-    margin: 2rem;
+    margin: 1rem;
+    position: fixed;
+    width: 8rem;
   }
 
+  .beer-section {
+    padding-left: min(15rem, 35%);
+  }
 
-  .bieresImages {
+  .beer-section .bieresImages {
     width: 60%;
     max-width: 30rem;
     padding: 0rem;
@@ -348,10 +352,6 @@ footer>h4 {
   .home-main-section>p,
   .home-welcome>p {
     margin: 10vh 10vw 10vh;
-  }
-
-  .summary-and-paragraph>p {
-    margin: 4vh 5vw;
   }
 
   p {
