@@ -334,16 +334,17 @@ footer>h4 {
 @media screen and (min-width: 768px) {
   .summary {
     display: inline-block;
-    margin: 1rem;
+    margin: 2rem 1rem;
     position: sticky;
-    top: 1rem;
+    top: 2rem;
     width: 8rem;
     vertical-align: top;
   }
 
   .introduction {
     display: inline-block;
-    width: 84%;
+    width: 60vw;
+    margin-left: 3rem;
   }
 
   .beer-section {
