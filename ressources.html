@@ -8,21 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Ressources</title>
-    <script src="https://kit.fontawesome.com/6fd2697c38.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <nav>
         <div class="topnav" id="myTopnav">
             <ul>
-                <a class="active" href="projet_1.html">Home</a>
-                <a href="types_bieres.html">Beers</a>
-                <a href="maps.html">Maps</a>
-                <a href="ressources.html">Ressources</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <li><a class="active" href="projet_1.html">Home</a></li>
+                <li><a class="toHide" href="types_bieres.html">Beers</a></li>
+                <li><a class="toHide" href="maps.html">Maps</a></li>
+                <li><a class="toHide" href="ressources.html">Ressources</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                </a>
+                </a></li>
         </div>
     </nav>
     <header id="home">
@@ -68,6 +66,47 @@
                 </div>
             </div>
     </section>
+
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Votre prénom</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Votre prénom..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Votre nom</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+            </div>
+          </div>
+          <div class="col-25">
+            <label for="email">Votre email :</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="exemple@gmail.com"/>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Votre message</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="submit" id="buttonForm">
+          </div>
+        </form>
+      </div>
+
+    <button onclick="topFunction()" id="myBtn"> <img src="images/button-up.png" alt="back to the top button" class="icone"> </button>
+    
     <footer>
         <h4>WCS Project.</h4>
         <i class="fa-solid fa-beer-mug-empty"></i>

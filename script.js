@@ -7,6 +7,26 @@ function myFunction() {
   }
 }
 
+/*------button up-------*/
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+/*------------ADD MAPS-------------*/
 var myMap = L.map('myMaps').setView([46.539240, 2.430189], 5);
 L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
   attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
@@ -108,3 +128,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
 
 var marker = L.marker([43.975976224756494, 1.4139738535551438], { icon: iconHop }).addTo(myMap6);
 marker.bindPopup("<h4>Brasserie IRON</h4>");
+
+/*--------- Form button ---------*/
+
+const message = "Merci pour votre message, nous vous répondrons dans les meilleurs délais";
+
+document.getElementById("buttonForm");
+document.addEventListener("buttonForm", function (event) {
+  event.preventDefault();
+  alert(message);
+});

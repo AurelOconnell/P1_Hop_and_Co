@@ -10,21 +10,22 @@
         integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
         crossorigin="" />
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Les Micro-Brasseries</title>
-    <script src="https://kit.fontawesome.com/6fd2697c38.js" crossorigin="anonymous"></script>
+    
+    <title>Maps</title>
 </head>
 
 <body>
     <nav>
         <div class="topnav" id="myTopnav">
             <ul>
-                <a class="active" href="projet_1.html">Home</a>
-                <a href="types_bieres.html">Beers</a>
-                <a href="maps.html">Maps</a>
-                <a href="ressources.html">Ressources</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <li><a class="active" href="projet_1.html">Home</a></li>
+                <li><a class="toHide" href="types_bieres.html">Beers</a></li>
+                <li><a class="toHide" href="maps.html">Maps</a></li>
+                <li><a class="toHide" href="ressources.html">Ressources</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                </a>
+                </a></li>
+            </ul>
         </div>
     </nav>
     <header id="homemaps">
@@ -40,6 +41,7 @@
         <section id="breweriesBio" class="breweriesBio"></section>
             <article>
                 <h3 class="brewName"> <a href="https://nomadebiere.fr/fr/home-2/">Nomade Brewery</a></h3>
+                <div class="imgBrewery" id="imgBrew1"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -49,6 +51,7 @@
             </article>
             <article>
                 <h3 class="brewName"><a href="https://www.brasserie-ladebauche.com/">La Débauche</a></h3>
+                <div class="imgBrewery" id="imgBrew2"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -58,6 +61,7 @@
             </article>
             <article>
                 <h3 class="brewName"><a href="https://www.zoobrew.fr/">Zoobrew Brasserie Animale</a></h3>
+                <div class="imgBrewery" id="imgBrew3"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -67,6 +71,7 @@
             </article>
             <article>
                 <h3 class="brewName"><a href="https://thepiggybrewingcompany.com/">Piggy Brewing Company</a></h3>
+                <div class="imgBrewery" id="imgBrew4"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -76,6 +81,7 @@
             </article>
             <article>
                 <h3 class="brewName"><a href="http://lagrivoise.e-monsite.com/">L'Agrivoise</a></h3>
+                <div class="imgBrewery" id="imgBrew5"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -85,6 +91,7 @@
             </article>
             <article>
                 <h3 class="brewName"><a href="https://shop.easybeer.fr/brasserie-iron">Brasserie IRON</a></h3>
+                <div class="imgBrewery" id="imgBrew6"></div>
                 <div class="desktopMedia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
                     Optio, vel quasi! Eius magni voluptatibus ea facilis eum ad quisquam veniam dolorem illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam impedit ex magni dolorem minima aliquam. 
@@ -94,6 +101,9 @@
             </article>
         </section>
     </section>
+
+    <button onclick="topFunction()" id="myBtn"> <img src="images/button-up.png" alt="back to the top button" class="icone"> </button>
+    
     <footer>
         <h4>WCS Project.</h4>
         <i class="fa-solid fa-beer-mug-empty"></i>
