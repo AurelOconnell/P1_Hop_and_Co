@@ -38,14 +38,13 @@
             <hr class="medium-line">
         </div>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, odio. Officia maxime,
-            itaque consequatur rerum consequuntur dolor facere nihil repellendus voluptas aperiam voluptatem,
-            quisquam vel ut quod, dolore eius quam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Fuga ipsa nam omnis suscipit doloremque similique facere rerum adipisci porro placeat minus nihil, quasi,
-            animi possimus reprehenderit ad beatae sapiente velit? Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit.
-            Alias doloremque eius ullam accusamus fugit minima, architecto saepe
-            non officiis sapiente sequi vel officia velit porro minus beatae quidem omnis corrupti?
+            Bienvenue sur le site d'information de la cave à bière Hop&Co sur la bière craft ! Nous sommes passionnés par la bière artisanale et 
+            nous sommes ravis de partager cette passion avec vous. <br><br>
+            Le monde de la bière artisanale est en constante évolution, avec de nouvelles brasseries et nouveaux styles de bière émergents chaque jour. 
+            Nous sommes là pour vous tenir au courant des dernières tendances, des événements à venir, des histoires de brasseries et bien plus encore.
+            Notre site est conçu pour les novices de la bière ainsi que pour les amateurs les plus chevronnés. <br><br>
+            Nous avons une plusieurs articles pour vous aider à en apprendre davantage sur la bière craft, y compris les différents types de bières, 
+            les brasseries avec lesquelles nous travaillons et bien plus encore !
         </p>
     </section>
 
@@ -54,47 +53,50 @@
 
         </div>
         <h2>
-            PLOPLOPLOP
+            Histoire de la bière
         </h2>
         <div>
             <hr class="medium-line">
         </div>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et excepturi nihil eos odio quas dolores
-            aliquam? Autem, suscipit! Nam molestias possimus repellendus fugit in voluptate? Debitis atque perferendis
-            error deleniti, eveniet corrupti reiciendis commodi ab doloribus. Explicabo, illo voluptatum totam corrupti
-            facere maiores voluptas animi porro voluptate reiciendis quos mollitia tempore a. Itaque amet nemo
-            consequatur aspernatur quam dolor ab quia nobis voluptas expedita provident, sint suscipit dolore officia
-            magni numquam laboriosam, labore hic fugit placeat. Blanditiis, similique aut. Obcaecati repellat iure
-            perspiciatis officia alias nemo error delectus nam?
+            La bière est l'une des boissons les plus anciennes et les plus populaires dans le monde entier. Elle est appréciée depuis des milliers d'années et a joué un rôle important dans de nombreuses cultures et civilisations à travers l'histoire.
+L'histoire de la bière remonte à l'époque de la civilisation sumérienne en Mésopotamie, où la bière était fabriquée à partir d'orge. <br><br>
+Les égyptiens anciens, les grecs et les romains ont également consommé de la bière dans leur vie quotidienne et lors de cérémonies religieuses.
+Au Moyen Âge, la bière est devenue un élément essentiel de la vie quotidienne en Europe, où elle était considérée comme une boisson saine et nutritive. Les moines des monastères européens ont commencé à brasser de la bière pour leur propre consommation et pour les pèlerins en visite, en utilisant des ingrédients tels que le houblon, la levure et le malt d'orge. <br><br>
+Au cours des siècles suivants, la bière est devenue de plus en plus populaire en Europe, et les brasseries ont commencé à se développer dans toute la région. Les bières de différentes régions d'Europe se sont distinguées par leur saveur, leur couleur et leur corps.
+Au 19ème siècle, la bière a connu un essor majeur grâce à la révolution industrielle. Les brasseries ont commencé à utiliser des techniques modernes de brassage et de production de masse pour produire des bières plus uniformes et plus rentables.<br><br>
+Au 20ème siècle, la bière est devenue l'une des boissons les plus populaires au monde. Les brasseries ont commencé à innover en créant de nouveaux styles de bière et en utilisant des ingrédients différents pour créer des saveurs uniques.
+Aujourd'hui, la bière est produite dans le monde entier et est consommée dans de nombreuses cultures différentes. Les brasseries artisanales et les micro-brasseries sont de plus en plus populaires, offrant une grande variété de styles et de saveurs de bière. <br><br>
+En résumé, la bière a une longue histoire qui remonte à des milliers d'années et a évolué au fil des siècles pour devenir l'une des boissons les plus populaires au monde. Elle a une place importante dans de nombreuses cultures et civilisations et continue d'être appréciée aujourd'hui pour sa diversité de saveurs et de styles.<br>
         </p>
         <div class="backgroundImg" id="second-backg"></div>
         <h2>
-            Histoire
+            La fabrication de la bière
         </h2>
         <div>
             <hr class="medium-line">
         </div>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel consectetur temporibus quo, sequi unde quia,
-            dicta eos rerum nesciunt provident optio ab aliquid id saepe enim, pariatur obcaecati quaerat maxime culpa
-            facere aliquam perspiciatis. Quaerat dolorem facilis odit, officia neque culpa id expedita ipsum. Aspernatur
-            inventore fugit quas, temporibus, ratione perferendis soluta magnam totam odio eos, quam cum cumque quidem
-            nihil nisi itaque. Soluta eaque fugit enim placeat quas facilis reiciendis unde dignissimos laborum labore?
+            La bière est une boisson alcoolisée très appréciée dans le monde entier. Elle est obtenue à partir de l'assemblage de différents ingrédients, dont les principaux sont l'eau, le malt d'orge, le houblon et la levure. <br><br> 
+            L'eau est la base de la bière et elle doit être de bonne qualité. Le malt d'orge est utilisé pour apporter les sucres nécessaires à la fermentation et donner la couleur et la saveur à la bière. <br>
+            Le houblon, quant à lui, sert à apporter l'amertume et les arômes caractéristiques de la bière. Enfin, la levure permet la fermentation des sucres en alcool et en gaz carbonique. 
+            D'autres ingrédients peuvent également être ajoutés pour donner une touche personnelle à la bière, tels que des épices, des fruits, ou encore du miel, les possibilités sont plétore !
         </p>
         <div class="backgroundImg" id="third-backg"></div>
         <h2>
-            La bière
+            La bière dans le monde
         </h2>
         <div>
             <hr class="medium-line">
         </div>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione consectetur minus doloremque. Quisquam
-            blanditiis ullam tenetur? In voluptatum repellendus architecto quasi, doloribus molestiae voluptatibus est
-            voluptatem blanditiis assumenda molestias, quaerat ipsum, totam libero consectetur voluptas sint quisquam
-            rerum esse? Commodi laboriosam maxime voluptate, ut dolorum totam nisi exercitationem placeat deserunt sit
-            voluptas enim rem unde. Delectus, neque.
+            La bière est une boisson populaire dans le monde entier, et sa consommation varie d'un pays à l'autre. Selon les données de 2021, les cinq plus grands consommateurs de bière au monde sont la Chine, les États-Unis, le Brésil, l'Allemagne et le Mexique. <br><br>
+
+En Chine, la consommation de bière est très élevée, avec plus de 45 milliards de litres de bière consommés en 2020. Aux États-Unis, la consommation de bière est également importante, avec environ 25 milliards de litres de bière consommés en 2020. Le Brésil est le troisième plus grand consommateur de bière au monde, avec une consommation de plus de 14 milliards de litres en 2020.<br><br>
+
+En Europe, les pays traditionnellement associés à la bière comme l'Allemagne, la Belgique, la République tchèque et le Royaume-Uni restent des grands consommateurs de bière. En Afrique, l'Afrique du Sud, le Nigeria et l'Éthiopie sont parmi les plus grands consommateurs de bière.<br><br>
+
+Il convient de noter que la consommation de bière a également été affectée par la pandémie de COVID-19, avec une baisse globale de la consommation en 2020 en raison des restrictions sanitaires et de la fermeture des bars et restaurants.
         </p>
     </section>
     
